@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 46;
+    objects = {
+
+/* Begin PBXAggregateTarget section */
+		AAD70079D568E14B24882B18 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AAB2F3AAF03BE04BB18D5145 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				AAA74F12377FDF4C94B6BB2D /* MultiBuild Framework */,
+			);
+			dependencies = (
+				AAE6D6E7822D664091AEDEC4 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+        AA48FC03A21AA94459934B7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA929E7F341A624ECDA1899C /* Foundation.framework */; };
+        AAB645E52A602B446CADE927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA929E7F341A624ECDA1899C /* Foundation.framework */; };
+        AAD413814EF60C43BBB602CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE7698F979B204571AEC9AD /* UIKit.framework */; };
+        AA151C19552E96453CB445BB /* libQordoba.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA29959E5B854542868FE3DE /* libQordoba.a */; };
+        AA2D4A6600B86D4F9ABC434D /* APIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AAADF776B51F4E4DDBB73319 /* APIHelper.m */; };
+        AA209DC5A4C5FF495FB61573 /* APIError.m in Sources */ = {isa = PBXBuildFile; fileRef = AA868F8F8BAE514838B9EBCD /* APIError.m */; };
+        AA6F117756D59F4C329C6861 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = AAED17401EB32846B1BA00FF /* Configuration.m */; };
+		AA98B6E8A599174AB69583C3 /* Project.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4DBC46D43FDA448DB345F6 /* Project.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6235F993704D49EBAB2AD4 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B3F8A4DEEC44C4AAB9A23 /* Project.m */; };
+		AA7111D7BFE01D45F3A6B88C /* MilestoneLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC259F22F28C54C618C06A9 /* MilestoneLanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6AEDA795ACA84290B5C680 /* MilestoneLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54E4EDA7240443E9A797ED /* MilestoneLanguage.m */; };
+		AA3D122366B7CF4EEC8601AC /* Milestone.h in Headers */ = {isa = PBXBuildFile; fileRef = AA68E4C7F512EF421ABE728C /* Milestone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAFABC405EB9A84406993C24 /* Milestone.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF26163DFF9E74C20932D7A /* Milestone.m */; };
+		AA37F40DD1AA8442D5A2EEA9 /* Language.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0600932A6DBC4DB49653C8 /* Language.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA668A9F4A0C914923B11E4A /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8C113613819B4F34934B9F /* Language.m */; };
+		AA31116461E89B4D329FEF81 /* User.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9406DC6E1E7B4EFD8B0D8E /* User.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC451D76D77034030B2EF03 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6664D145EBD7438D982FC3 /* User.m */; };
+		AA2BE32495357E4B56A89C1C /* StringFile.h in Headers */ = {isa = PBXBuildFile; fileRef = AAAA7108F843D641CBB749DC /* StringFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA38DE354F641D4CE79D39D3 /* StringFile.m in Sources */ = {isa = PBXBuildFile; fileRef = AA54C8367AEF564A05A4423F /* StringFile.m */; };
+		AA44E99A1408D343F08ED3A2 /* QordobaController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0A5B5A617B32459896FA89 /* QordobaController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAD7A6D196427F441C8B9D70 /* QordobaController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3CF5A88312A44A4EAEB08B /* QordobaController.m */; };
+		AA22BCCD0D82D44BF9A4CE1F /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC7FF39BF4C6143DD988D11 /* Configuration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA38BBA69389FC4119954E0C /* APIError.h in Headers */ = {isa = PBXBuildFile; fileRef = AA86A0D0C0E3FE4D25926370 /* APIError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA10A7B911FB874655ABDD30 /* APIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AA30D00153D34E49238B29E2 /* APIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA3F442067A67E4EA296E6CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABA6EF010A5E54BABB2BB4D /* libPods.a */; };
+		AA42EFF859BA874351864176 /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA81F67E73FDAA457EAFF4DD /* libJSONModel.a */; };		
+		AAE61027A8C7694C9D9FF281 /* libUnirest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABA180C654B6D4D3199E03E /* libUnirest.a */; };
+		AAA14AF5027F8847308E18DD /* IHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2FAF663BA49B412682C290 /* IHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7743F176D16F4CFFA4E78D /* HttpContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE6203615348F45BAAB1CB2 /* HttpContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6F4BAADEFECC452C95FA9F /* HttpContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AA95B463B60BAD480DB4CCE1 /* HttpContext.m */; };
+
+		AA364B37D1B73C46469AC81E /* UnirestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0A2927202A104157A96838 /* UnirestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA5EF2FC281E4B4E9D867433 /* UnirestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3B250C055D8B4D5DA63FC1 /* UnirestClient.m */; };
+		AA4A5EA16044D1462AA5551C /* HttpBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8582073904694B34948C0E /* HttpBodyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA70AE63C0AAE743FAA198FA /* HttpBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2DD408444A87464DAD3AF0 /* HttpBodyRequest.m */; };
+		AA3710C08449D54E6E991B1F /* HttpMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB7683DDB986D44158F6FE1 /* HttpMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA5695EA510E524EC59DF134 /* HttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AA258895F81E10427B88EEF3 /* HttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA5146D9A57A334C26B24D02 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA471DEDE08C194A12A09027 /* HttpRequest.m */; };
+		AACB9FA8B5BF794DBBADB2C1 /* HttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AAEBCA9C8DD53D4FB0842C17 /* HttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4A5FDE3F670346ABAE78D9 /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD9D0ABAFB8304EF4814693 /* HttpResponse.m */; };
+		AA95679207838143CB8B8B98 /* HttpStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA232B7F15A30B44079E9DD5 /* HttpStringResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA62AA4AD94A0D44AF80BAF7 /* HttpStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2876666159CF4E5EBC4B5D /* HttpStringResponse.m */; };
+		AAE23BB22E0F694932AD216A /* BaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4C915FA1AA574F94805693 /* BaseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA77DE75DA846D4952B1FEE9 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABFA4B809021D4E3E9827BB /* BaseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA261FADB997C749C9A07A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAAD5806C10D94495781C70D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAACA898A15C674AB78A39CD;
+			remoteInfo = Qordoba;
+		};
+        AA261FADB997C749C9A07A81 /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = AAE1287785FE9E4ED8A85624 /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = AAACA898A15C674AB78A39CD;
+            remoteInfo = Qordoba;
+        };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+        AAAF50F43510034067A0C4C7 /* CopyFiles */ = {
+            isa = PBXCopyFilesBuildPhase;
+            buildActionMask = 2147483647;
+            dstPath = "include/$(PRODUCT_NAME)";
+            dstSubfolderSpec = 16;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+        AA29959E5B854542868FE3DE /* libQordoba.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQordoba.a; sourceTree = BUILT_PRODUCTS_DIR; };
+        AA929E7F341A624ECDA1899C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+        AA2FCF70DACD2B4F75959868 /* Qordoba-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Qordoba-Prefix.pch"; sourceTree = "<group>"; };
+        AAE7698F979B204571AEC9AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+        AAADF776B51F4E4DDBB73319 /* APIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIHelper.m; sourceTree = "<group>"; };
+        AA30D00153D34E49238B29E2 /* APIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIHelper.h; sourceTree = "<group>"; };		
+        AA868F8F8BAE514838B9EBCD /* APIError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIError.m; sourceTree = "<group>"; };
+        AA86A0D0C0E3FE4D25926370 /* APIError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIError.h; sourceTree = "<group>"; };
+        AAED17401EB32846B1BA00FF /* Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+        AAC7FF39BF4C6143DD988D11 /* Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		AA4DBC46D43FDA448DB345F6 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Project.h; path = Models/Project.h; sourceTree = "<group>"; };
+		AA2B3F8A4DEEC44C4AAB9A23 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Project.m; path = Models/Project.m; sourceTree = "<group>"; };
+		AAC259F22F28C54C618C06A9 /* MilestoneLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MilestoneLanguage.h; path = Models/MilestoneLanguage.h; sourceTree = "<group>"; };
+		AA54E4EDA7240443E9A797ED /* MilestoneLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MilestoneLanguage.m; path = Models/MilestoneLanguage.m; sourceTree = "<group>"; };
+		AA68E4C7F512EF421ABE728C /* Milestone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Milestone.h; path = Models/Milestone.h; sourceTree = "<group>"; };
+		AAF26163DFF9E74C20932D7A /* Milestone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Milestone.m; path = Models/Milestone.m; sourceTree = "<group>"; };
+		AA0600932A6DBC4DB49653C8 /* Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Language.h; path = Models/Language.h; sourceTree = "<group>"; };
+		AA8C113613819B4F34934B9F /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Language.m; path = Models/Language.m; sourceTree = "<group>"; };
+		AA9406DC6E1E7B4EFD8B0D8E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Models/User.h; sourceTree = "<group>"; };
+		AA6664D145EBD7438D982FC3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Models/User.m; sourceTree = "<group>"; };
+		AAAA7108F843D641CBB749DC /* StringFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringFile.h; path = Models/StringFile.h; sourceTree = "<group>"; };
+		AA54C8367AEF564A05A4423F /* StringFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringFile.m; path = Models/StringFile.m; sourceTree = "<group>"; };
+		AA0A5B5A617B32459896FA89 /* QordobaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QordobaController.h; path = Controllers/QordobaController.h; sourceTree = "<group>"; };
+		AA3CF5A88312A44A4EAEB08B /* QordobaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QordobaController.m; path = Controllers/QordobaController.m; sourceTree = "<group>"; };
+		AABA6EF010A5E54BABB2BB4D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA81F67E73FDAA457EAFF4DD /* libJSONModel.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libJSONModel.a"; path = "libJSONModel.a"; sourceTree = "<group>"; };
+		AABA180C654B6D4D3199E03E /* libUnirest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libUnirest.a"; path = "libUnirest.a"; sourceTree = "<group>"; };
+        AA2FAF663BA49B412682C290 /* IHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IHttpClient.h; path = Http/Client/IHttpClient.h; sourceTree = "<group>"; };
+		AA0A2927202A104157A96838 /* UnirestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnirestClient.h; path = Http/Client/UnirestClient.h; sourceTree = "<group>"; };
+		AA3B250C055D8B4D5DA63FC1 /* UnirestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnirestClient.m; path = Http/Client/UnirestClient.m; sourceTree = "<group>"; };
+		AAE6203615348F45BAAB1CB2 /* HttpContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpContext.h; path = Http/Client/HttpContext.h; sourceTree = "<group>"; };
+		AA95B463B60BAD480DB4CCE1 /* HttpContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc;name = HttpContext.m;  path = Http/Client/HttpContext.m; sourceTree = "<group>"; };
+
+		AA8582073904694B34948C0E /* HttpBodyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpBodyRequest.h; path = Http/Request/HttpBodyRequest.h; sourceTree = "<group>"; };
+		AA2DD408444A87464DAD3AF0 /* HttpBodyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpBodyRequest.m; path = Http/Request/HttpBodyRequest.m; sourceTree = "<group>"; };
+		AAB7683DDB986D44158F6FE1 /* HttpMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpMethod.h; path = Http/Request/HttpMethod.h; sourceTree = "<group>"; };
+		AA258895F81E10427B88EEF3 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequest.h; path = Http/Request/HttpRequest.h; sourceTree = "<group>"; };
+		AA471DEDE08C194A12A09027 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequest.m; path = Http/Request/HttpRequest.m; sourceTree = "<group>"; };
+		AAEBCA9C8DD53D4FB0842C17 /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpResponse.h; path = Http/Response/HttpResponse.h; sourceTree = "<group>"; };
+		AAD9D0ABAFB8304EF4814693 /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpResponse.m; path = Http/Response/HttpResponse.m; sourceTree = "<group>"; };
+		AA232B7F15A30B44079E9DD5 /* HttpStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpStringResponse.h; path = Http/Response/HttpStringResponse.h; sourceTree = "<group>"; };
+		AA2876666159CF4E5EBC4B5D /* HttpStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpStringResponse.m; path = Http/Response/HttpStringResponse.m; sourceTree = "<group>"; };
+		AA4C915FA1AA574F94805693 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseController.h; path = Controllers/BaseController.h; sourceTree = "<group>"; };
+		AABFA4B809021D4E3E9827BB /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseController.m; path = Controllers/BaseController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        AA05DFDFD39B49468DB8E343 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA48FC03A21AA94459934B7E /* Foundation.framework in Frameworks */,
+				AAE61027A8C7694C9D9FF281 /* libUnirest.a in Frameworks */,				
+				AA42EFF859BA874351864176 /* libJSONModel.a in Frameworks */,				
+				AA3F442067A67E4EA296E6CC /* libPods.a in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        AA5FBBCF702DF749E599E499 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AAD413814EF60C43BBB602CF /* UIKit.framework in Frameworks */,
+                AA151C19552E96453CB445BB /* libQordoba.a in Frameworks */,
+                AAB645E52A602B446CADE927 /* Foundation.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        AAD11A5260A04B4C7D8CDA89 = {
+            isa = PBXGroup;
+            children = (
+                AAA3D2BE87844642C4A7AA40 /* Qordoba */,
+                AAB92C60B9D75146C8A048C4 /* Frameworks */,
+                AA04896D44A27D46578F2844 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        AA04896D44A27D46578F2844 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                AA29959E5B854542868FE3DE /* libQordoba.a */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        AAB92C60B9D75146C8A048C4 /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+				AABA180C654B6D4D3199E03E /* libUnirest.a */,
+				AA81F67E73FDAA457EAFF4DD /* libJSONModel.a */,
+				AABA6EF010A5E54BABB2BB4D /* libPods.a */,
+                AA929E7F341A624ECDA1899C /* Foundation.framework */,
+                AAE7698F979B204571AEC9AD /* UIKit.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+        AAA3D2BE87844642C4A7AA40 /* Qordoba */ = {
+            isa = PBXGroup;
+            children = (
+                AA6DAA0A2C6E72413095BA75 /* Models */,
+                AA157C9B06733F4AF083B547 /* Http */,
+                AAF3F7C63A8E3C40A79231D5 /* Controllers */,
+                AA86BFEEC7900B4B99B0D6C6 /* Supporting Files */,
+                AAADF776B51F4E4DDBB73319 /* APIHelper.m */,
+                AA30D00153D34E49238B29E2 /* APIHelper.h */,
+                AA868F8F8BAE514838B9EBCD /* APIError.m */,
+                AA86A0D0C0E3FE4D25926370 /* APIError.h */,
+                AAED17401EB32846B1BA00FF /* Configuration.m */,
+                AAC7FF39BF4C6143DD988D11 /* Configuration.h */,
+            );
+            path = Qordoba;
+            sourceTree = "<group>";
+        };
+        AA86BFEEC7900B4B99B0D6C6 /* Supporting Files */ = {
+            isa = PBXGroup;
+            children = (
+                AA2FCF70DACD2B4F75959868 /* Qordoba-Prefix.pch */,
+            );
+            name = "Supporting Files";
+            sourceTree = "<group>";
+        };
+        AAF3F7C63A8E3C40A79231D5 /* Controllers */ = {
+            isa = PBXGroup;
+            children = (
+				AA4C915FA1AA574F94805693 /* BaseController.h */,
+				AABFA4B809021D4E3E9827BB /* BaseController.m */,
+				AA0A5B5A617B32459896FA89 /* QordobaController.h */,
+				AA3CF5A88312A44A4EAEB08B /* QordobaController.m */,
+            );
+            name = Controllers;
+            sourceTree = "<group>";
+        };
+		AA69B9B70CA8204294A11CA4 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				AA2FAF663BA49B412682C290 /* IHttpClient.h */,
+				AA0A2927202A104157A96838 /* UnirestClient.h */,
+				AA3B250C055D8B4D5DA63FC1 /* UnirestClient.m */,
+				AAE6203615348F45BAAB1CB2 /* HttpContext.h */,
+				AA95B463B60BAD480DB4CCE1 /* HttpContext.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		AA157C9B06733F4AF083B547 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				AAC755176F093B467B876192 /* Request */,
+				AA69B9B70CA8204294A11CA4 /* Client */,
+				AA0DAE4F2B824C42BD8DD375 /* Response */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
+		AAC755176F093B467B876192 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				AA8582073904694B34948C0E /* HttpBodyRequest.h */,
+				AA2DD408444A87464DAD3AF0 /* HttpBodyRequest.m */,
+				AAB7683DDB986D44158F6FE1 /* HttpMethod.h */,
+				AA258895F81E10427B88EEF3 /* HttpRequest.h */,
+				AA471DEDE08C194A12A09027 /* HttpRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		AA0DAE4F2B824C42BD8DD375 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				AAEBCA9C8DD53D4FB0842C17 /* HttpResponse.h */,
+				AAD9D0ABAFB8304EF4814693 /* HttpResponse.m */,
+				AA232B7F15A30B44079E9DD5 /* HttpStringResponse.h */,
+				AA2876666159CF4E5EBC4B5D /* HttpStringResponse.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+        AA6DAA0A2C6E72413095BA75 /* Models */ = {
+            isa = PBXGroup;
+            children = (
+				AA4DBC46D43FDA448DB345F6 /* Project.h */,
+				AA2B3F8A4DEEC44C4AAB9A23 /* Project.m */,
+				AAC259F22F28C54C618C06A9 /* MilestoneLanguage.h */,
+				AA54E4EDA7240443E9A797ED /* MilestoneLanguage.m */,
+				AA68E4C7F512EF421ABE728C /* Milestone.h */,
+				AAF26163DFF9E74C20932D7A /* Milestone.m */,
+				AA0600932A6DBC4DB49653C8 /* Language.h */,
+				AA8C113613819B4F34934B9F /* Language.m */,
+				AA9406DC6E1E7B4EFD8B0D8E /* User.h */,
+				AA6664D145EBD7438D982FC3 /* User.m */,
+				AAAA7108F843D641CBB749DC /* StringFile.h */,
+				AA54C8367AEF564A05A4423F /* StringFile.m */,
+            );
+            name = Models;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA657F4D6B79034E9AB363A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+		AA98B6E8A599174AB69583C3 /* Project.h in Headers */,
+		AA7111D7BFE01D45F3A6B88C /* MilestoneLanguage.h in Headers */,
+		AA3D122366B7CF4EEC8601AC /* Milestone.h in Headers */,
+		AA37F40DD1AA8442D5A2EEA9 /* Language.h in Headers */,
+		AA31116461E89B4D329FEF81 /* User.h in Headers */,
+		AA2BE32495357E4B56A89C1C /* StringFile.h in Headers */,
+		AA44E99A1408D343F08ED3A2 /* QordobaController.h in Headers */,
+		AA10A7B911FB874655ABDD30 /* APIHelper.h in Headers */,
+		AA22BCCD0D82D44BF9A4CE1F /* Configuration.h in Headers */,
+		AA38BBA69389FC4119954E0C /* APIError.h in Headers */,
+		AA4A5EA16044D1462AA5551C /* HttpBodyRequest.h in Headers */,
+		AA5695EA510E524EC59DF134 /* HttpRequest.h in Headers */,
+		AAA14AF5027F8847308E18DD /* IHttpClient.h in Headers */,
+		AA7743F176D16F4CFFA4E78D /* HttpContext.h in Headers */,
+
+		AAE23BB22E0F694932AD216A /* BaseController.h in Headers */,
+		AACB9FA8B5BF794DBBADB2C1 /* HttpResponse.h in Headers */,
+		AA364B37D1B73C46469AC81E /* UnirestClient.h in Headers */,
+		AA95679207838143CB8B8B98 /* HttpStringResponse.h in Headers */,
+		AA3710C08449D54E6E991B1F /* HttpMethod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+        AAACA898A15C674AB78A39CD /* Qordoba */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = AA42CB056CF5684B02B0F75C /* Build configuration list for PBXNativeTarget "Qordoba" */;
+            buildPhases = (
+                AAE8732449F4324D71A045F8 /* Sources */,
+                AA05DFDFD39B49468DB8E343 /* Frameworks */,
+                AAAF50F43510034067A0C4C7 /* CopyFiles */,
+				AA657F4D6B79034E9AB363A9 /* Headers */,
+				AA38FBD074805C4F94976B89 /* Build Framework */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = Qordoba;
+            productName = Qordoba;
+            productReference = AA29959E5B854542868FE3DE /* libQordoba.a */;
+            productType = "com.apple.product-type.library.static";
+        };		
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        AAE1287785FE9E4ED8A85624 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastUpgradeCheck = 0500;
+                ORGANIZATIONNAME = Qordoba;
+            };
+            buildConfigurationList = AA3035EBA1D5B24136B52C43 /* Build configuration list for PBXProject "Qordoba" */;
+            compatibilityVersion = "Xcode 3.2";
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+            );
+            mainGroup = AAD11A5260A04B4C7D8CDA89;
+            productRefGroup = AA04896D44A27D46578F2844 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                AAACA898A15C674AB78A39CD /* Qordoba */,
+				AAD70079D568E14B24882B18 /* Framework */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA38FBD074805C4F94976B89 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#Credit: http://www.raywenderlich.com/65964/create-a-framework-for-ios\nset -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/JSONModel/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${PODS_ROOT}/Headers/Public/Unirest/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Copy the public headers into the framework\n/bin/cp -f -r \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		AAA74F12377FDF4C94B6BB2D /* MultiBuild Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiBuild Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#Credit: http://www.raywenderlich.com/65964/create-a-framework-for-ios\nset -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\n\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n     \n     xcrun xcodebuild \\\n    -workspace \"${PROJECT_DIR}/${PROJECT_NAME}.xcworkspace\" \\\n    -scheme \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        AAE8732449F4324D71A045F8 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AA2D4A6600B86D4F9ABC434D /* APIHelper.m in Sources */,
+                AA209DC5A4C5FF495FB61573 /* APIError.m in Sources */,
+                AA6F117756D59F4C329C6861 /* Configuration.m in Sources */,
+				AA6235F993704D49EBAB2AD4 /* Project.m in Sources */,
+				AA6AEDA795ACA84290B5C680 /* MilestoneLanguage.m in Sources */,
+				AAFABC405EB9A84406993C24 /* Milestone.m in Sources */,
+				AA668A9F4A0C914923B11E4A /* Language.m in Sources */,
+				AAC451D76D77034030B2EF03 /* User.m in Sources */,
+				AA38DE354F641D4CE79D39D3 /* StringFile.m in Sources */,
+				AAD7A6D196427F441C8B9D70 /* QordobaController.m in Sources */,
+				 AA70AE63C0AAE743FAA198FA /* HttpBodyRequest.m in Sources */,
+				 AA77DE75DA846D4952B1FEE9 /* BaseController.m in Sources */,
+				 AA5EF2FC281E4B4E9D867433 /* UnirestClient.m in Sources */,
+				 AA6F4BAADEFECC452C95FA9F /* UnirestClient.m in Sources */,
+				 AA4A5FDE3F670346ABAE78D9 /* HttpResponse.m in Sources */,
+				 AA62AA4AD94A0D44AF80BAF7 /* HttpStringResponse.m in Sources */,
+				 AA5146D9A57A334C26B24D02 /* HttpRequest.m in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE6D6E7822D664091AEDEC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAACA898A15C674AB78A39CD /* Qordoba */;
+			targetProxy = AA261FADB997C749C9A07A81 /* PBXContainerItemProxy */;
+		};
+        AA1CD8B26D3A4245EFAA9922 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = AAACA898A15C674AB78A39CD /* Qordoba */;
+            targetProxy = AA261FADB997C749C9A07A81 /* PBXContainerItemProxy */;
+        };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA9FBA28319ED24677869E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA9C49AC7FAE7F4A06B43E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+        AAA6D0FB3F8F43434EAADFF3 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+            };
+            name = Debug;
+        };
+        AA0609C0E594264E8C814BB3 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = YES;
+                ENABLE_NS_ASSERTIONS = NO;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+                SDKROOT = iphoneos;
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        AA0312A043706D4D5089385C /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                DEAD_CODE_STRIPPING = NO;
+                DSTROOT = /tmp/Qordoba.dst;
+                GCC_PRECOMPILE_PREFIX_HEADER = YES;
+                GCC_PREFIX_HEADER = "Qordoba/Qordoba-Prefix.pch";
+                OTHER_LDFLAGS = "";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+                SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = "non-global";
+            };
+            name = Debug;
+        };
+        AAEFCBB07A9BD148D3A6B4D2 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+                DSTROOT = /tmp/Qordoba.dst;
+                GCC_PRECOMPILE_PREFIX_HEADER = YES;
+                GCC_PREFIX_HEADER = "Qordoba/Qordoba-Prefix.pch";
+                OTHER_LDFLAGS = "";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+                SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = "non-global";
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB2F3AAF03BE04BB18D5145 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9FBA28319ED24677869E3A /* Debug */,
+				AA9C49AC7FAE7F4A06B43E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+        AA3035EBA1D5B24136B52C43 /* Build configuration list for PBXProject "Qordoba" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AAA6D0FB3F8F43434EAADFF3 /* Debug */,
+                AA0609C0E594264E8C814BB3 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        AA42CB056CF5684B02B0F75C /* Build configuration list for PBXNativeTarget "Qordoba" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                AA0312A043706D4D5089385C /* Debug */,
+                AAEFCBB07A9BD148D3A6B4D2 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = AAE1287785FE9E4ED8A85624 /* Project object */;
+}
