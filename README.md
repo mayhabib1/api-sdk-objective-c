@@ -1,52 +1,62 @@
-Qordoba
-=================
-Qordoba’s Java SDK offers platform-specific features that make the Qordoba implementation much simpler. The SDKs are open-source, and can be forked at the links below. Once forked, you can integrate our API into your application.
+---
+title: Objective-C SDK for l10n
+layout: api
+---
 
-Note: Only works with Cocoapods version 0.38.2 or later. Due to recent breaking changes, you must upgrade to the latest pod version. You can find the change log link below.
+# Objective-C SDK
 
-https://github.com/CocoaPods/CocoaPods/blob/master/CHANGELOG.md
+Qordoba’s Objective-C SDK offers platform-specific features that make the Qordoba API implementation much simpler. The SDK allows you to integrate our API with your application without worrying about low-level API details. Our Objective-C SDK is open-source and can be forked at the link below. Once forked and configured, you will be able to easily integrate our API into your application.
 
-How To Configure:
-=================
-The code reads configuration values from the App-Info.plist file.
-The App-Info.plist dictionary must contain the following configuration entries.
+### Get the SDK:
 
-	BasicAuthUserName		The username to use with basic authentication
-	BasicAuthPassword		The password to use with basic authentication
+Download the Objective-C API SDK from [GitHub](https://github.com/Qordobacode/api-sdk-objective-c).
 
-How to build and use via CocoaPods: 
-=============
-CocoaPods is a popular dependency manager for Swift and Objective-C Cocoa projects. 
-The following instructions help you integrate with an existing CocoaPods project.
+To clone the repo: `git clone git@github.com:Qordobacode/api-sdk-objective-c.git`.
 
-    1. Create a folder named Qordoba in /path/to/your/project/Vendor/
-    2. Extract the contents of the SDK in to the folder named Qordoba
-    3. Add the following line to your PodFile : 
-	       pod 'Qordoba', :path => 'Vendor/Qordoba'
-    4. Execute 'pod install' from terminal to install the dependency in to your project.
 
-For more information, please refer to http://CocoaPods.org on how to use CocoaPods to manage dependency for the project. 
+### How to configure the SDK:
 
-How to build via static framework: 
-=============
-The code uses two Cocoa Pods namely, JSONModel and UniRest.
-Reference to these two is already set in the PodFile, all you need to do is
-the following.
+Our Objective-C SDK works only with CocoaPods version 0.38.2 or later. The SDK code reads configuration values from the `App-Info.plist` file, so the `App-Info.plist` dictionary must contain the following configuration entries:
 
-    1. Open terminal and goto the unarchived directory.
-    2. Run command "pod install" without the quotes. 
-    3. A new file named "Qordoba.xcworkspace" will be created as a result.
-    4. Open the "Qordoba.xcworkspace" in XCode 5.0.
-    5. Change the build target: Product -> Schema and select "Framework"
-    6. Invoke build command. By default the  framework is copied to your desktop. 
 
-How to use the static framework:
-===========
-The build process generates a static library, which can be used just like an
-ordinary static library. See the following link for more information on this
-topic.
+`BasicAuthPassword`: Your Qordoba password to use with basic authentication
 
-https://developer.apple.com/library/ios/technotes/iOSStaticLibraries/Introduction.html
+`BasicAuthUserName`: Your Qordoba username to use with basic authentication
 
-Note: You may need to add the '-all_load' flag (under Build Settings > Linking > Other Linker Flags) in your app project that uses this framework. 
-	
+###How to install via CocoaPods:
+
+CocoaPods is a popular dependency manager for Swift and Objective-C Cocoa projects. The following instructions help you integrate with an existing CocoaPods project.
+
+* Create a folder named Qordoba in `/path/to/your/project/Vendor/`
+* Extract the contents of the SDK into the Qordoba folder 
+* Add the following line to your Podfile: 
+	      ` pod 'Qordoba', :path => 'Vendor/Qordoba'`
+* Execute `'pod install'` from terminal to install the dependency 
+
+For more information, please refer to [http://CocoaPods.org](http://CocoaPods.org) for using CocoaPods to manage project dependencies.  
+
+###How to install via static framework:
+
+The code uses two Cocoa Pods namely, JSONModel and UniRest. Reference to these two is already set in the PodFile, all you need to do is the following.
+
+* Open terminal and goto the unarchived directory.
+* Run command `"pod install"` without the quotes. 
+* A new file named "Qordoba.xcworkspace" will be created as a result.
+* Open the `"Qordoba.xcworkspace" in XCode 5.0.`
+* Change the build target: `Product -> Schema` and select `"Framework"`
+* Invoke build command. By default the  framework is copied to your desktop. 
+
+###How to use the static framework:###
+
+The build process generates a static library, which can be used just like any ordinary static library. You can read more about this [here](https://developer.apple.com/library/ios/technotes/iOSStaticLibraries/Introduction.html).
+
+You may need to add the `-all_load` flag (Build Settings -> Linking -> Other Linker Flags) in the project that uses this framework.
+ 
+
+
+### Bug reports
+Have a bug? Please create an issue [here](https://github.com/Qordobacode/api-sdk-objective-c/issues) on GitHub! 
+
+
+### License
+The MIT License (MIT)
